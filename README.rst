@@ -58,7 +58,7 @@ Cache Usage
         bayes.train('bad', 'fear death horror government zombie')
 
         # Saving the cache so next time the training won't be needed
-        bayes.persist_cache()
+        bayes.cache_persist()
 
 Tokenizer Override
 ------------------
